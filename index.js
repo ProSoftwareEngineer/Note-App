@@ -39,7 +39,7 @@ const createNoteView = (note) => {
     return noteDiv;
 }
 
-const cancelNote = (noteDiv) => {
+const cancelEdit = (noteDiv) => {
     const titleP = noteDiv.querySelector('b.title');
     titleP.contentEditable = false;
     const bodyP = noteDiv.querySelector('p.body');
